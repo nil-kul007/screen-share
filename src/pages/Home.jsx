@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import socketIO from 'socket.io-client'
 // import JoinButton from '../component/Button'
 
-const WS = 'https://9b98-36-255-86-176.in.ngrok.io';
+const WS = 'https://cors-anywhere.herokuapp.com/https://9b98-36-255-86-176.in.ngrok.io';
 const socket = socketIO(WS);
 
 const Home = () => {
