@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import socketIO from 'socket.io-client'
 // import JoinButton from '../component/Button'
 
-const WS = 'http://192.168.1.121:8000';
+const WS = 'https://9b98-36-255-86-176.in.ngrok.io';
 const socket = socketIO(WS);
 
 const Home = () => {
