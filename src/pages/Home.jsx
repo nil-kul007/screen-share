@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom';
 import socketIO from 'socket.io-client'
 // import JoinButton from '../component/Button'
 
-const WS = 'https://cors-anywhere.herokuapp.com/https://9b98-36-255-86-176.in.ngrok.io';
+// const WS = 'https://screenshareserver2-nilkul007.b4a.run:8080';
+const WS = 'https://server-1y3u.onrender.com/'
+// const WS = 'http://localhost:8000/'
 const socket = socketIO(WS);
 
 const Home = () => {

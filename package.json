@@ -1,8 +1,6 @@
 {
   "name": "screen-share",
   "version": "0.1.0",
-  "homepage": "https://nil-kul007.github.io/screen-share",
-  "proxy": "https://9b98-36-255-86-176.in.ngrok.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
